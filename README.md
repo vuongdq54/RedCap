@@ -25,5 +25,5 @@ This vulnerability occurs when Completed & Archived Requests has more than 10 re
 <img src="https://github.com/vuongdq54/RedCap/blob/main/XSS_Todolist.JPG" />
 </p>
 
-## reference
+## Reference
 https://www.project-redcap.org/
